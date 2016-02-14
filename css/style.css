@@ -5,3 +5,30 @@ img{width:225px;height:200px;cursor:pointer;}
 .imageBack{ background:url("../images/web.png") no-repeat center fixed;background-size: cover;}
 .posi{font-size: 20px;color: #fff; position: relative;top: 270px;right: 73px;}
 .paddigRig{display:inline;}
+
+
+
+.posiAnimation a {
+  color: #FFF;
+    position: relative;
+    -webkit-animation: myfirst 5s linear 2s infinite alternate; /* Chrome, Safari, Opera */
+    animation: myfirst 5s linear 2s infinite alternate;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes myfirst {
+    0%   {color:#FFF; }
+    25%  {color:yellow; }
+    50%  {color:#FFF; }
+    75%  {color:green; }
+    100% {color:#FFF; }
+}
+
+/* Standard syntax */
+@keyframes myfirst {
+     0%   {color:#FFF; }
+    25%  {color:yellow; }
+    50%  {color:#FFF; }
+    75%  {color:green; }
+    100% {color:#FFF; }
+}
