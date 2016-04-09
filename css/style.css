@@ -5,9 +5,11 @@ img{width:225px;height:200px;cursor:pointer;}
 .imageBack{ background:url("../images/web.png") no-repeat center fixed;background-size: cover;}
 .posi{font-size: 20px;color: #fff; position: relative;top: 270px;right: 73px;}
 .paddigRig{display:inline;}
-
-
-
+.userid{padding:10px;background-color:beige;margin-bottom: 10px;cursor:pointer;width:325px;}
+.userinfo{clear: both;width: 325px;background: gainsboro;padding: 10px;margin-bottom:10px; }
+.hidden{display:none;}
+.thead-inverse{background-color: #CCCCCC;}
+#shopContainer{margin-top: 30px;}
 .posiAnimation a {
   color: #FFF;
     position: relative;

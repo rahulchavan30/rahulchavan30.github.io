@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+
+    <title>Learn More</title>
+     <script src="../js/jquery.js"></script>
+    <script src="../js/jsdemo.js"></script>
+   
+    <!-- Bootstrap core CSS -->
+    <link href="../css/bootstrap.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="../css/style.css" rel="stylesheet">
+
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container ">
+        <div class="navbar-header">
+          
+          <a class="navbar-brand" href="../html/home.html">Home</a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse navbar-right">
+          <ul class="nav navbar-nav">
+           
+            <li><a href="../html/learnhtml.html">HTML</a></li>
+            <li><a href="../html/learncss.html">CSS</a></li>
+            <li><a href="../html/learnjs.html">Java Script</a></li>
+            <li><a href="../html/learnjquery.html">jQuery</a></li>
+            <li><a href="../html/jsDemo.html">Java Script Demo</a></li>
+            
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+
+    <div class="container userContainer">
+      <div>
+      <h2 class="page-header">Java Script Demo</h2>
+      <p>Below is the basic example of JS explaining about Create,ADD,Update,Delete(CRUD) using jQuery
+      </p>
+      </div>
+       <div>
+      <h2 class="page-header">Displaying List Of Owner List</h2>
+      <p>Here is a simple display of all the owner Information, Please click on each userId to see more information</p>
+      <div id='ownerInformation'>
+
+
+      </div>
+      </div>
+      <div class="paddingdown">
+      
+      </div>
+       <footer>
+        <p class="paddigRig">&copy; 2016 </p>
+        <p class='pull-right'>Rahul Suryakanth</p>
+      </footer>
+   </div><!-- /.container -->
+   <div id='shopContainer' class='hidden container'>
+
+     <div>
+      <h2 class="page-header">Stock Information</h2>
+      <p>Here in this page it is a display of all the stocks for the user id selected in previous page.
+        Please select "Add" to add any stock to the table, JS Validation are in Place to Prevent any Duplicates.
+        When updating each input is checked to see if valid entry is done if not the user is alerted with the error.
+        Once all validation is done the entry is made to the table<br>
+
+      </p>
+      </div>
+
+
+
+
+
+
+    <table class="table" style="border-bottom: 1px solid #CCC;">
+  <thead class="thead-inverse">
+    <tr>
+      <th>Select</th>
+      <th>Category</th>
+      <th>Category Size</th>
+      <th>Brand Name</th>
+      <th>Unit Price</th>
+      <th>Stock Remaining</th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody id='tableBody'>
+    
+    
+  </tbody>
+</table>
+<div  style="float:right;padding-bottom:50px">
+  <button id="goback" type='button' >Go Back</button>
+  <button id="add" type='button'>Add</button>
+  <button id="delete" type='button'>Delete</button>
+  
+
+</div>
+
+
+
+
+
+   </div>
+    
+      
+
+
+  </body>
+</html>
